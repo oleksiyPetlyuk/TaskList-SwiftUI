@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FACD37D72388325F000BB03D /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD37D62388325F000BB03D /* RowView.swift */; };
+		FACD37D923883605000BB03D /* TaskEditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD37D823883605000BB03D /* TaskEditingView.swift */; };
+		FACD37DD23883795000BB03D /* IndexedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD37DB23883795000BB03D /* IndexedCollection.swift */; };
+		FACD37DE23883795000BB03D /* ForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD37DC23883795000BB03D /* ForEach.swift */; };
+		FACD37E023883B0F000BB03D /* Task.Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD37DF23883B0F000BB03D /* Task.Priority.swift */; };
+		FACD37E223883B9C000BB03D /* TaskStore.PrioritizedTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD37E123883B9C000BB03D /* TaskStore.PrioritizedTasks.swift */; };
+		FACD37E423895E91000BB03D /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD37E323895E91000BB03D /* SectionView.swift */; };
+		FACD37E623896445000BB03D /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD37E523896445000BB03D /* Binding.swift */; };
 		FAD55E08238816A000529E06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD55E07238816A000529E06 /* AppDelegate.swift */; };
 		FAD55E0A238816A000529E06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD55E09238816A000529E06 /* SceneDelegate.swift */; };
 		FAD55E0C238816A000529E06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD55E0B238816A000529E06 /* ContentView.swift */; };
 		FAD55E0E238816A100529E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD55E0D238816A100529E06 /* Assets.xcassets */; };
 		FAD55E11238816A100529E06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD55E10238816A100529E06 /* Preview Assets.xcassets */; };
 		FAD55E14238816A100529E06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD55E12238816A100529E06 /* LaunchScreen.storyboard */; };
+		FAD55E1C2388174900529E06 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD55E1B2388174900529E06 /* Task.swift */; };
+		FAD55E1F238817C300529E06 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD55E1E238817C300529E06 /* TaskStore.swift */; };
+		FAD55E2123881F7600529E06 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD55E2023881F7600529E06 /* NewTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FACD37D62388325F000BB03D /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		FACD37D823883605000BB03D /* TaskEditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditingView.swift; sourceTree = "<group>"; };
+		FACD37DB23883795000BB03D /* IndexedCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexedCollection.swift; sourceTree = "<group>"; };
+		FACD37DC23883795000BB03D /* ForEach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForEach.swift; sourceTree = "<group>"; };
+		FACD37DF23883B0F000BB03D /* Task.Priority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.Priority.swift; sourceTree = "<group>"; };
+		FACD37E123883B9C000BB03D /* TaskStore.PrioritizedTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.PrioritizedTasks.swift; sourceTree = "<group>"; };
+		FACD37E323895E91000BB03D /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		FACD37E523896445000BB03D /* Binding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
 		FAD55E04238816A000529E06 /* TaskList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD55E07238816A000529E06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD55E09238816A000529E06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +43,9 @@
 		FAD55E10238816A100529E06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAD55E13238816A100529E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAD55E15238816A100529E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD55E1B2388174900529E06 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		FAD55E1E238817C300529E06 /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
+		FAD55E2023881F7600529E06 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +59,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FACD37DA23883795000BB03D /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				FACD37E523896445000BB03D /* Binding.swift */,
+				FACD37DB23883795000BB03D /* IndexedCollection.swift */,
+				FACD37DC23883795000BB03D /* ForEach.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
 		FAD55DFB238816A000529E06 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +88,11 @@
 		FAD55E06238816A000529E06 /* TaskList */ = {
 			isa = PBXGroup;
 			children = (
+				FACD37DA23883795000BB03D /* extension */,
+				FAD55E1D2388175000529E06 /* Models */,
+				FAD55E222388213700529E06 /* Views */,
 				FAD55E07238816A000529E06 /* AppDelegate.swift */,
 				FAD55E09238816A000529E06 /* SceneDelegate.swift */,
-				FAD55E0B238816A000529E06 /* ContentView.swift */,
 				FAD55E0D238816A100529E06 /* Assets.xcassets */,
 				FAD55E12238816A100529E06 /* LaunchScreen.storyboard */,
 				FAD55E15238816A100529E06 /* Info.plist */,
@@ -73,6 +107,29 @@
 				FAD55E10238816A100529E06 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAD55E1D2388175000529E06 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAD55E1B2388174900529E06 /* Task.swift */,
+				FACD37DF23883B0F000BB03D /* Task.Priority.swift */,
+				FAD55E1E238817C300529E06 /* TaskStore.swift */,
+				FACD37E123883B9C000BB03D /* TaskStore.PrioritizedTasks.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FAD55E222388213700529E06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAD55E0B238816A000529E06 /* ContentView.swift */,
+				FACD37E323895E91000BB03D /* SectionView.swift */,
+				FAD55E2023881F7600529E06 /* NewTaskView.swift */,
+				FACD37D823883605000BB03D /* TaskEditingView.swift */,
+				FACD37D62388325F000BB03D /* RowView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +203,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD55E1F238817C300529E06 /* TaskStore.swift in Sources */,
+				FAD55E1C2388174900529E06 /* Task.swift in Sources */,
+				FACD37DD23883795000BB03D /* IndexedCollection.swift in Sources */,
+				FACD37E623896445000BB03D /* Binding.swift in Sources */,
+				FACD37D923883605000BB03D /* TaskEditingView.swift in Sources */,
+				FACD37D72388325F000BB03D /* RowView.swift in Sources */,
+				FAD55E2123881F7600529E06 /* NewTaskView.swift in Sources */,
+				FACD37E023883B0F000BB03D /* Task.Priority.swift in Sources */,
 				FAD55E08238816A000529E06 /* AppDelegate.swift in Sources */,
+				FACD37E423895E91000BB03D /* SectionView.swift in Sources */,
+				FACD37E223883B9C000BB03D /* TaskStore.PrioritizedTasks.swift in Sources */,
 				FAD55E0A238816A000529E06 /* SceneDelegate.swift in Sources */,
+				FACD37DE23883795000BB03D /* ForEach.swift in Sources */,
 				FAD55E0C238816A000529E06 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +354,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TaskList/Preview Content\"";
+				DEVELOPMENT_TEAM = W6MAKY98QY;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TaskList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +374,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TaskList/Preview Content\"";
+				DEVELOPMENT_TEAM = W6MAKY98QY;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TaskList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
